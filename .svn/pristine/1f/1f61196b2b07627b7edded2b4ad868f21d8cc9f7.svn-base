@@ -1,0 +1,52 @@
+####======= Common =======###
+id = លេខសម្គាល់
+home = ផ្ទះ
+add = បន្ថែម
+register = ចុះឈ្មោះ
+list = បញ្ជី
+update = កែតម្រូវ
+detail = ព័ត៌មានលម្អិត
+save = រក្សាទុក
+cancel = បោះបង់
+close = បិទ
+delete = លុប
+no = ល.រ
+name = ឈ្មោះ
+action = សកម្មភាព
+image = រូបភាព
+download = ទាញយក
+
+####======= Menu =======###
+dashboard = ផ្ទាំងគ្រប់គ្រង
+user.management = ការគ្រប់គ្រងអ្នកប្រើប្រាស់
+customer.management = ការគ្រប់គ្រងអតិថិជន
+quotation.management = ការគ្រប់គ្រងសម្រង់
+commodity.management = ការគ្រប់គ្រងទំនិញ
+service.type.management = ការគ្រប់គ្រងប្រភេទសេវាកម្ម
+service.item.management = ការគ្រប់គ្រងធាតុសេវាកម្ម
+
+####======= Page Dashboard =======###
+title.dashboard = LMS | ផ្ទាំងគ្រប់គ្រង
+project.form = ផ្ទាំងគម្រោង
+plots = ក្បាលដី
+sold = បានលក់
+sellers = អ្នកលក់
+
+####======= Pages User Management =======###
+title.user.management = LMS | ការគ្រប់គ្រងអ្នកប្រើប្រាស់ប្រព័ន្ធ
+system.user.management = ការគ្រប់គ្រងអ្នកប្រើប្រាស់ប្រព័ន្ធ
+system.user.list = បញ្ជីអ្នកប្រើប្រាស់ប្រព័ន្ធ
+add.system.user = បន្ថែមថ្មីអ្នកប្រើប្រាស់ប្រព័ន្ធ
+update.system.user = កែតម្រូវអ្នកប្រើប្រាស់ប្រព័ន្ធ
+user.name = ឈ្មោះ​អ្នកប្រើប្រាស់
+password = ពាក្យសម្ងាត់
+confirm.password = បញ្ជាក់ពាក្យសម្ងាត់
+role = តួនាទី
+
+####======= Pages Quotation =======###
+quotation = Quotation
+
+####======= Footer =======###
+copyright = រក្សាសិទ្ធិ
+copyright.context = រក្សា​រ​សិទ្ធ​គ្រប់យ៉ាង។
+version = ជំនាន់

@@ -1,0 +1,13 @@
+package com.klsoft.TransportManagment;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class TransportManagmentApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(TransportManagmentApplication.class, args);
+	}
+
+}

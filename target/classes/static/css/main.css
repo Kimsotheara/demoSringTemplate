@@ -1,0 +1,9 @@
+.topnav-right{
+    right: 0;
+    position: absolute;
+}
+.country-flag{
+    width: 45px;
+    height: 30px;
+    margin-right: 20px;
+}

@@ -1,0 +1,41 @@
+package com.klsoft.TransportManagment.config;
+
+import com.klsoft.TransportManagment.entity.User;
+import com.klsoft.TransportManagment.repository.UserRepository;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+
+import java.util.Optional;
+
+@Configuration
+public class BeanConfig {
+    private UserRepository userRepository;
+
+    public BeanConfig(UserRepository userRepository) {
+        this.userRepository = userRepository;
+    }
+
+//    @Bean
+//    public ModelMapper modelMapper() {
+//        return new ModelMapper();
+//    }
+
+    @Bean
+    public BCryptPasswordEncoder encoder() {
+        return new BCryptPasswordEncoder();
+    }
+
+    @Bean
+    public void createDefaultUser() {
+        User existingUser = this.userRepository.findByUsername("admin");
+        if (existingUser == null) {
+            User user = new User();
+            user.setUsername("admin");
+            user.setPassword(this.encoder().encode("password"));
+            user.setUserRole("ADMIN");
+            this.userRepository.save(user);
+        }
+    }
+
+}

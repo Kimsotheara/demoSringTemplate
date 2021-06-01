@@ -1,0 +1,6 @@
+package com.klsoft.TransportManagment.service;
+
+public interface UserService {
+
+
+}
